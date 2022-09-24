@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "854815082361",
+    "project_id": "sigescapp-c1436",
+    "storage_bucket": "sigescapp-c1436.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:854815082361:android:628cb60c76659e032111a8",
+        "android_client_info": {
+          "package_name": "com.example.sigescapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "854815082361-j2i1m5fur5p4d23f3ib0dgqn6b00msem.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMX2ToYQ73ZBNdrkCvsrrYJNH5WFBRHfY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "854815082361-j2i1m5fur5p4d23f3ib0dgqn6b00msem.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "854815082361-iv9a7crnqoake5ocn8p5kgprj9ia9d7c.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.sigescapp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:854815082361:android:508477ee0943822b2111a8",
+        "android_client_info": {
+          "package_name": "com.example.sigescapp_att"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "854815082361-j2i1m5fur5p4d23f3ib0dgqn6b00msem.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMX2ToYQ73ZBNdrkCvsrrYJNH5WFBRHfY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "854815082361-j2i1m5fur5p4d23f3ib0dgqn6b00msem.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "854815082361-iv9a7crnqoake5ocn8p5kgprj9ia9d7c.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.sigescapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
