@@ -85,8 +85,9 @@ class _LoginWidgetState extends State<LoginWidget> {
                       prefixIcon: const Icon(Icons.lock),
                       suffixIcon: IconButton(
                         onPressed: () {
-                          showpassword = false;
-                          setState(() {});
+                          setState(() {
+                            showpassword = false;
+                          });
                         },
                         icon: const Icon(Icons.remove_red_eye_outlined),
                       ),

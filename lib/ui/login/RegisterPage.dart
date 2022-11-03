@@ -1,4 +1,7 @@
+// ignore_for_file: file_names
+
 import 'package:flutter/material.dart';
+import '../MenuPages/HomePage.dart';
 import '../MenuPages/ManagerPage.dart';
 
 class RegisterPage extends StatelessWidget {
@@ -6,7 +9,7 @@ class RegisterPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) => Scaffold(
-        // drawer: const NavigationDrawer(),
+        drawer: const NavigationDrawer(),
         appBar: AppBar(
           toolbarHeight: 50,
           title: const Text('Cadastro de alunos'),
@@ -14,7 +17,6 @@ class RegisterPage extends StatelessWidget {
           shadowColor: Colors.transparent,
           backgroundColor: const Color.fromARGB(255, 68, 3, 129),
         ),
-
         body: Container(
           padding: const EdgeInsets.all(20),
           child: Column(
