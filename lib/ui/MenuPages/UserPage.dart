@@ -4,6 +4,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
 import 'HomePage.dart';
+import 'NavigationDrawer.dart';
 
 class UserPage extends StatelessWidget {
   const UserPage({Key? key}) : super(key: key);
@@ -12,7 +13,7 @@ class UserPage extends StatelessWidget {
   Widget build(BuildContext context) {
     final user = FirebaseAuth.instance.currentUser!;
     return Scaffold(
-      drawer: const NavigationDrawer(),
+      drawer: const CustomNavigationDrawer(),
       appBar: AppBar(
         toolbarHeight: 50,
         title: const Text('Perfil do usuário'),

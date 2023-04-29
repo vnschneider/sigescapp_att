@@ -1,6 +1,7 @@
 // ignore_for_file: file_names
 import 'package:flutter/material.dart';
 import 'HomePage.dart';
+import 'NavigationDrawer.dart';
 
 class TeacherPage extends StatefulWidget {
   const TeacherPage({Key? key}) : super(key: key);
@@ -37,7 +38,7 @@ class _TeacherPage extends State<TeacherPage> with TickerProviderStateMixin {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      drawer: const NavigationDrawer(),
+      drawer: const CustomNavigationDrawer(),
       appBar: AppBar(
         toolbarHeight: 50,
         title: const Text('Área do professor'),

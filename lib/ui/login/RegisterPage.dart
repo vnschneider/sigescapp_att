@@ -3,13 +3,14 @@
 import 'package:flutter/material.dart';
 import '../MenuPages/HomePage.dart';
 import '../MenuPages/ManagerPage.dart';
+import '../MenuPages/NavigationDrawer.dart';
 
 class RegisterPage extends StatelessWidget {
   const RegisterPage({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) => Scaffold(
-        drawer: const NavigationDrawer(),
+        drawer: const CustomNavigationDrawer(),
         appBar: AppBar(
           toolbarHeight: 50,
           title: const Text('Cadastro de alunos'),

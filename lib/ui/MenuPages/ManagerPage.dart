@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:data_table_2/data_table_2.dart';
 import '../login/RegisterPage.dart';
 import 'HomePage.dart';
+import 'NavigationDrawer.dart';
 
 List listaAlunos = [
   'Eduarda',
@@ -103,7 +104,7 @@ class ManagerPage extends StatelessWidget {
           foregroundColor: const Color.fromARGB(255, 255, 253, 237),
           child: const Icon(Icons.add),
         ),
-        drawer: const NavigationDrawer(),
+        drawer: const CustomNavigationDrawer(),
         appBar: AppBar(
           toolbarHeight: 50,
           title: const Text('Gestão de matrículas'),
